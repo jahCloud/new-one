@@ -16,4 +16,4 @@ jobs:
       run: |
         pwd
         ls
-        uname- a
+        uname -a
