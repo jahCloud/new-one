@@ -1,0 +1,19 @@
+# Workflow 1
+
+
+name: workflow-1
+on:
+  push:
+    branches:
+      - mika
+
+jobs:
+  my-job-1:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: step-1
+      run: |
+        pwd
+        ls
+        uname- a
