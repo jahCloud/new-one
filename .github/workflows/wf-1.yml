@@ -15,5 +15,9 @@ jobs:
     - name: step-1
       run: |
         pwd
+        echo "this is step-1"
+    - name: step-2
+      run: |
         ls
         uname -a
+        echo "this is step-2"
